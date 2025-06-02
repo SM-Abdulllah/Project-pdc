@@ -1,0 +1,47 @@
+=== Distributed Apriori Algorithm (MPI) ===
+Enter minimum support count: Enter data filename: Select mode:
+1. Normal run
+2. Performance test
+Master loaded 15 transactions
+Process 0 received 15 transactions
+
+=== Running Distributed Apriori Algorithm ===
+Number of processes: 1
+Minimum support: 2
+
+Frequent 1-itemsets: 5
+Generated 10 candidates for level 2
+Frequent 2-itemsets: 9
+Generated 8 candidates for level 3
+Frequent 3-itemsets: 2
+
+Distributed Apriori completed!
+Total frequent itemsets: 16
+Execution time: 6 ms
+
+=== FREQUENT ITEMSETS ===
+
+1-itemsets:
+-------------
+{ bread } : 8
+{ butter } : 6
+{ cheese } : 6
+{ eggs } : 8
+{ milk } : 8
+
+2-itemsets:
+-------------
+{ bread, butter } : 3
+{ bread, cheese } : 2
+{ bread, eggs } : 4
+{ bread, milk } : 4
+{ butter, eggs } : 2
+{ butter, milk } : 3
+{ cheese, eggs } : 3
+{ cheese, milk } : 2
+{ eggs, milk } : 4
+
+3-itemsets:
+-------------
+{ bread, butter, milk } : 2
+{ bread, eggs, milk } : 2
